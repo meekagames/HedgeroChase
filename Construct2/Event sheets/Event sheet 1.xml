@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="5014498832911625">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6553027164589177" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Add key" sid="292937549687084" type="Tunnels">
+                    <param id="0" name="Key">&quot;49&quot;</param>
+                    <param id="1" name="Value">50</param>
+                </action>
+                <action id="0" name="Add key" sid="6228205674030757" type="Tunnels">
+                    <param id="0" name="Key">&quot;2&quot;</param>
+                    <param id="1" name="Value">73</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9228561398792111">
+            <conditions>
+                <condition id="0" name="On clicked" sid="6898689521718902" type="RollTheDie" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="1523133354098791" type="Die">
+                    <param id="0" name="Frame number">1+random(6)</param>
+                </action>
+                <action id="2" name="Set visible" sid="8109094886322654" type="RollTheDie">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="489285022451628">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="947575725663151" type="Player">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="3541746982186241" type="Hedgeromeanr">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="1495513528613529" type="Minus">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="204445150050222">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="2673630315606412" type="Player">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="3812833578778279" type="Hedgeromeanr">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">99</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="9633091793175101" type="Plus">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4597171198015842">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="5189299172366729" type="Player">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="423309930099872" type="DrNinetyBrains">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="6790816619039069" type="Minus">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1597336733193121">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="5955885134486907" type="Player">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">1</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="2967099585352929" type="DrNinetyBrains">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">99</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set visible" sid="5732618103456379" type="Plus">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7431075625719534">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9425820812656047">
+            <conditions>
+                <condition id="0" name="On clicked" sid="1903933579293432" type="Plus" />
+            </conditions>
+            <actions>
+                <action id="2" name="Set visible" sid="8709782322571511" type="Plus">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="3700439313899784" type="Minus">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="9364341785276294" type="Player">
+                    <param id="0" name="Instance variable">Up</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="9321680763169853" type="Player">
+                    <param id="0" name="Instance variable">Moving</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2509058584059808">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9145348704293958" type="Minus" />
+            </conditions>
+            <actions>
+                <action id="2" name="Set visible" sid="1808682204670973" type="Plus">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="8608246468974299" type="Minus">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="6358489106512303" type="Player">
+                    <param id="0" name="Instance variable">Up</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-13" name="Set boolean" sid="1433306150234395" type="Player">
+                    <param id="0" name="Instance variable">Moving</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7335444163623582">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="678837830894342" type="Player">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="7083248506903067" type="Player">
+                    <param id="0" name="Instance variable">Moving</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="287429434538325">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="8621460660312212" type="Player">
+                            <param id="0" name="Instance variable">Up</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="9182531096119591" type="Hedgeromeanr">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">99</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="732683467911764" type="Die">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4127162433490606">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="7029476695178296" type="Player">
+                            <param id="0" name="Instance variable">Up</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="9428232026513402" type="Hedgeromeanr">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="8546011581881241" type="Die">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9613101648244299">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="1947295868895712" type="Die">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="3" name="Has key" sid="3712094826993902" type="Tunnels">
+                            <param id="0" name="Key">str(Hedgeromeanr.Position)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7846309725299446" type="Hedgeromeanr">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Value">Tunnels.Get(str(Hedgeromeanr.Position))</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="5429831769391358" type="Hedgeromeanr">
+                            <param id="0" name="X">Function.Call(&quot;GetX&quot;, Hedgeromeanr.Position % 10, Hedgeromeanr.Position % 20)</param>
+                            <param id="1" name="Y">Function.Call(&quot;GetY&quot;, int(Hedgeromeanr.Position / 10))</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2799474785213729">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="5936259738542737" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="8144331461667757" type="Potion">
+                                    <param id="0" name="Object">Hedgeromeanr</param>
+                                    <param id="1" name="Image point (optional)">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="9165892452400847">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="3215360545902655" type="Die">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="4239996876023895" type="Player">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="8290343048451359" type="Player">
+                            <param id="0" name="Instance variable">Moving</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set visible" sid="1602638915490323" type="RollTheDie">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="1652738976907952">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="6113219193833249" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="6733202419580821" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">Position</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="1648972914741405" type="Player">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="9435710297499032" type="Potion">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="0" name="Alert" sid="7447597677775524" type="Browser">
+                                    <param id="0" name="Message">&quot;Hedgeromeanr Wins! Hurrah! Huzzah!&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2886988431795919">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="2507138533782446" type="Die">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Add to" sid="7147032753437931" type="Hedgeromeanr">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Value">Player.Up * 2 - 1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1956097155454707" type="Hedgeromeanr">
+                            <param id="0" name="X">Function.Call(&quot;GetX&quot;, Hedgeromeanr.Position % 10, Hedgeromeanr.Position % 20)</param>
+                            <param id="1" name="Y">Function.Call(&quot;GetY&quot;, int(Hedgeromeanr.Position / 10))</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="8842745262339023" type="Die">
+                            <param id="0" name="Frame number">Die.AnimationFrame - 1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="7239026520394737">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="6185443285332329" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="3617514239652378" type="Potion">
+                                    <param id="0" name="Object">Hedgeromeanr</param>
+                                    <param id="1" name="Image point (optional)">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5173008269578631">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="1471224301348634" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="7033204878324416" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">Position</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">Hedgeromeanr.Position</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="5349430124855032" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="7054918337243411" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3340147516612103">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="4905901421518124" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">Position</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">50</param>
+                                </condition>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1273989626787874" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="2429064260779372" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="3191575279824594" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7404985361389563">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="7315628274910582" type="Die">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="8567490041056575" type="Player">
+                                    <param id="0" name="Instance variable">Moving</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="4779109499509092" type="System">
+                                    <param id="0" name="Seconds">0.3</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="1320461171847171" type="Player">
+                                    <param id="0" name="Instance variable">Moving</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="2877720203541188">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="9769828244214196" type="Player">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">1</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="8666415715387856" type="Player">
+                    <param id="0" name="Instance variable">Moving</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4246324281432305">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="1946951814179798" type="Player">
+                            <param id="0" name="Instance variable">Up</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="3710360922259259" type="DrNinetyBrains">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">99</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="3823112432645884" type="Die">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2943938305133847">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="9053005212378378" type="Player">
+                            <param id="0" name="Instance variable">Up</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="286521131693203" type="DrNinetyBrains">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="9185388737105278" type="Die">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2479895143194996">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="3564253164312557" type="Die">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="3" name="Has key" sid="6781895176291915" type="Tunnels">
+                            <param id="0" name="Key">str(DrNinetyBrains.Position)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="9692254555620482" type="DrNinetyBrains">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Value">Tunnels.Get(str(DrNinetyBrains.Position))</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="8334128444173386" type="DrNinetyBrains">
+                            <param id="0" name="X">Function.Call(&quot;GetX&quot;, DrNinetyBrains.Position % 10, DrNinetyBrains.Position % 20)</param>
+                            <param id="1" name="Y">Function.Call(&quot;GetY&quot;, int(DrNinetyBrains.Position / 10))</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="8852839127552214">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="6160682118436515" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="7184123784105199" type="Potion">
+                                    <param id="0" name="Object">DrNinetyBrains</param>
+                                    <param id="1" name="Image point (optional)">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7365454314321002">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="8374166039787827" type="Die">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="8197018672149845" type="Player">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="8660393037446685" type="Player">
+                            <param id="0" name="Instance variable">Moving</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="2" name="Set visible" sid="4745090045198387" type="RollTheDie">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2360695763947907">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="8569726235561784" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="7279498860650623" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">Position</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">99</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7449896903219556" type="Player">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="765098249731248" type="Potion">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="0" name="Alert" sid="5801068492443203" type="Browser">
+                                    <param id="0" name="Message">&quot;Dr Ninety Brains Wins! Muhahahahaha&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="7707012250052423">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="4145937410999919" type="Die">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Add to" sid="8171863646229776" type="DrNinetyBrains">
+                            <param id="0" name="Instance variable">Position</param>
+                            <param id="1" name="Value">Player.Up * 2 - 1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="2784859492722784" type="DrNinetyBrains">
+                            <param id="0" name="X">Function.Call(&quot;GetX&quot;, DrNinetyBrains.Position % 10, DrNinetyBrains.Position % 20)</param>
+                            <param id="1" name="Y">Function.Call(&quot;GetY&quot;, int(DrNinetyBrains.Position / 10))</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2068812178770513" type="Die">
+                            <param id="0" name="Frame number">Die.AnimationFrame - 1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="2008709608870819">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="813013332159589" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-4" name="Set position to another object" sid="8978935374351237" type="Potion">
+                                    <param id="0" name="Object">DrNinetyBrains</param>
+                                    <param id="1" name="Image point (optional)">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1600098079947523">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="3208561629582188" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="167169382824383" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">Position</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">DrNinetyBrains.Position</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="1266448130605457" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="9797781958284052" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2592278863625825">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="711670651509753" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">Position</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">50</param>
+                                </condition>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="6671253091651861" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="8317334886590954" type="Hedgeromeanr">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="3629184043372494" type="DrNinetyBrains">
+                                    <param id="0" name="Instance variable">HasPotion</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7408182316622849">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="4304443060111587" type="Die">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-13" name="Set boolean" sid="3816877059369116" type="Player">
+                                    <param id="0" name="Instance variable">Moving</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="2793731297553471" type="System">
+                                    <param id="0" name="Seconds">0.3</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="7748715627603718" type="Player">
+                                    <param id="0" name="Instance variable">Moving</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="9520300682574969">
+            <conditions>
+                <condition id="0" name="On function" sid="1279943124587322" type="Function">
+                    <param id="0" name="Name">&quot;GetX&quot;</param>
+                </condition>
+                <condition id="1" name="Compare parameter" sid="8703738094993276" type="Function">
+                    <param id="0" name="Index">1</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Set return value" sid="6590458641875023" type="Function">
+                    <param id="0" name="Value">Board.X0 + 33 * Function.Param(0)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7184179474281505">
+            <conditions>
+                <condition id="0" name="On function" sid="2517288421461285" type="Function">
+                    <param id="0" name="Name">&quot;GetX&quot;</param>
+                </condition>
+                <condition id="1" name="Compare parameter" sid="6663673325776113" type="Function">
+                    <param id="0" name="Index">1</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Set return value" sid="7432957154677719" type="Function">
+                    <param id="0" name="Value">Board.X0 + 33 * (9 - Function.Param(0))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8025847919633298">
+            <conditions>
+                <condition id="0" name="On function" sid="6096090039010101" type="Function">
+                    <param id="0" name="Name">&quot;GetY&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Set return value" sid="7899472521890194" type="Function">
+                    <param id="0" name="Value">Board.Y0 - 33 * Function.Param(0)</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
