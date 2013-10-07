@@ -250,6 +250,60 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Explain" uid="16">
+                    <properties>
+                        <text>Hedgeromeanr went to Dr Ninety Brains&apos; secret cloud lair to grab the potion. Dr Ninety Brains went to Hedgeromeanr&apos;s secret Mars crater lair to grab the potion, but both were fooled! The potion is now in between them. Each player must try to grab the potion and return home.</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-13,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>488.191772461</x>
+                        <y>164.715118408</y>
+                        <z>0</z>
+                        <width>149.108764648</width>
+                        <height>217.026824951</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="UpDown" uid="17">
+                    <properties>
+                        <text>Press + to move up or - to move down. Hedgeromeanr&apos;s super hero friends have secret crater tunnels that send you down. Dr Ninety Brains&apos; super villain friends have secret cloud tunnels that send you down.</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Arial,-13,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>488.191955566</x>
+                        <y>161.714996338</y>
+                        <z>0</z>
+                        <width>149.10899353</width>
+                        <height>171.648666382</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

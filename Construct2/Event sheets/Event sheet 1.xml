@@ -8,13 +8,25 @@
                 <condition id="-2" name="On start of layout" sid="6553027164589177" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Add key" sid="292937549687084" type="Tunnels">
-                    <param id="0" name="Key">&quot;49&quot;</param>
-                    <param id="1" name="Value">50</param>
-                </action>
                 <action id="0" name="Add key" sid="6228205674030757" type="Tunnels">
                     <param id="0" name="Key">&quot;2&quot;</param>
                     <param id="1" name="Value">73</param>
+                </action>
+                <action id="0" name="Add key" sid="5601658393892782" type="Tunnels">
+                    <param id="0" name="Key">&quot;15&quot;</param>
+                    <param id="1" name="Value">24</param>
+                </action>
+                <action id="0" name="Add key" sid="4355103811360377" type="Tunnels">
+                    <param id="0" name="Key">&quot;28&quot;</param>
+                    <param id="1" name="Value">46</param>
+                </action>
+                <action id="0" name="Add key" sid="3011654240249319" type="Tunnels">
+                    <param id="0" name="Key">&quot;25&quot;</param>
+                    <param id="1" name="Value">6</param>
+                </action>
+                <action id="0" name="Add key" sid="5405315025891148" type="Tunnels">
+                    <param id="0" name="Key">&quot;96&quot;</param>
+                    <param id="1" name="Value">9</param>
                 </action>
             </actions>
         </event-block>
@@ -28,6 +40,12 @@
                 </action>
                 <action id="2" name="Set visible" sid="8109094886322654" type="RollTheDie">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="814627402405805" type="Explain">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3841285504447994" type="UpDown">
+                    <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
             <sub-events>
@@ -120,6 +138,9 @@
                 <action id="2" name="Set visible" sid="3700439313899784" type="Minus">
                     <param id="0" name="Visibility">0</param>
                 </action>
+                <action id="-15" name="Set visible" sid="6073186690184546" type="UpDown">
+                    <param id="0" name="Visibility">0</param>
+                </action>
                 <action id="-13" name="Set boolean" sid="9364341785276294" type="Player">
                     <param id="0" name="Instance variable">Up</param>
                     <param id="1" name="Value">1</param>
@@ -139,6 +160,9 @@
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="2" name="Set visible" sid="8608246468974299" type="Minus">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1748303912536903" type="UpDown">
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-13" name="Set boolean" sid="6358489106512303" type="Player">
