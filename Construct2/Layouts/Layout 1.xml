@@ -279,7 +279,7 @@
                 </instance>
                 <instance type="UpDown" uid="17">
                     <properties>
-                        <text>Press + to move up or - to move down. Hedgeromeanr&apos;s super hero friends have secret crater tunnels that send you down. Dr Ninety Brains&apos; super villain friends have secret cloud tunnels that send you down.</text>
+                        <text>Press + to move up or - to move down. Hedgeromeanr&apos;s super hero friends have secret crater tunnels that send you down. Dr Ninety Brains&apos; super villain friends have secret cloud tunnels that send you up.</text>
                         <initial-visibility>Invisible</initial-visibility>
                         <font>Arial,-13,400,0</font>
                         <color>0,0,0</color>
@@ -297,6 +297,114 @@
                         <z>0</z>
                         <width>149.10899353</width>
                         <height>187.764511108</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PotionChase1" uid="18">
+                    <properties>
+                        <text>Oh my! Hedgeromeanr has the potion! If Dr Ninety Brains goes past him he will snatch the potion. Can Hedgeromeanr make it down to his secret Mars lair in time?</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>488.191986084</x>
+                        <y>164.714996338</y>
+                        <z>0</z>
+                        <width>149.10899353</width>
+                        <height>217.026992798</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PotionChase2" uid="19">
+                    <properties>
+                        <text>Oh my! Dr Ninety Brains has the potion! If Hedgeromeanr goes past him he will snatch the potion. Can Dr Ninety Brains make it up to his secret Cloud lair in time?</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>488.191986084</x>
+                        <y>164.714996338</y>
+                        <z>0</z>
+                        <width>149.10899353</width>
+                        <height>217.026992798</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PotionChase3" uid="20">
+                    <properties>
+                        <text>Oh my! What a hero! Hedgeromeanr has stolen the potion from Dr Ninety Brains! Now Hedgeromeanr just needs make it down to his secret Mars lair.</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>488.191986084</x>
+                        <y>164.714996338</y>
+                        <z>0</z>
+                        <width>149.10899353</width>
+                        <height>217.026992798</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PotionChase4" uid="21">
+                    <properties>
+                        <text>Oh my! What an evil super villain! Dr Ninety Brains has stolen the potion from Hedgeromeanr! Now Dr Ninety Brains just needs make it up to his secret Cloud lair.</text>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>488.191986084</x>
+                        <y>164.714996338</y>
+                        <z>0</z>
+                        <width>149.10899353</width>
+                        <height>217.026992798</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

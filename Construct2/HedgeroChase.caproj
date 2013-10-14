@@ -204,6 +204,18 @@
         <object-type name="UpDown" sid="2169708827710247">
             <plugin id="Text" />
         </object-type>
+        <object-type name="PotionChase1" sid="7245239137513889">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PotionChase2" sid="7821802975302673">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PotionChase3" sid="86488157718436">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PotionChase4" sid="7950205040910448">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder expanded="1">

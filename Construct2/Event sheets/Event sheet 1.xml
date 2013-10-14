@@ -44,11 +44,23 @@
                 <action id="-15" name="Set visible" sid="814627402405805" type="Explain">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="3841285504447994" type="UpDown">
-                    <param id="0" name="Visibility">1</param>
-                </action>
             </actions>
             <sub-events>
+                <event-block sid="456327458592998">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="4823371869690493" type="Hedgeromeanr">
+                            <param id="0" name="Instance variable">HasPotion</param>
+                        </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="1133021164784058" type="DrNinetyBrains">
+                            <param id="0" name="Instance variable">HasPotion</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="3841285504447994" type="UpDown">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="489285022451628">
                     <conditions>
                         <condition id="3" name="Compare frame" sid="947575725663151" type="Player">
@@ -356,6 +368,18 @@
                                     <param id="0" name="Instance variable">HasPotion</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="9739273792510414" type="UpDown">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="1724618957709981" type="PotionChase2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="627498168721111" type="PotionChase4">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="7099610970534834" type="PotionChase3">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="3340147516612103">
@@ -376,6 +400,15 @@
                                 <action id="-13" name="Set boolean" sid="3191575279824594" type="Hedgeromeanr">
                                     <param id="0" name="Instance variable">HasPotion</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="4950561609066872" type="UpDown">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="2035766237181124" type="PotionChase2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="346749875402326" type="PotionChase1">
+                                    <param id="0" name="Visibility">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -585,6 +618,18 @@
                                     <param id="0" name="Instance variable">HasPotion</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
+                                <action id="-15" name="Set visible" sid="3196571600279946" type="UpDown">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="9227674209112199" type="PotionChase1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="9467837172469774" type="PotionChase3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="7853933722546516" type="PotionChase4">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="2592278863625825">
@@ -605,6 +650,15 @@
                                 <action id="-13" name="Set boolean" sid="3629184043372494" type="DrNinetyBrains">
                                     <param id="0" name="Instance variable">HasPotion</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="3221268275884114" type="UpDown">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="2432714050162604" type="PotionChase1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="3427296490066189" type="PotionChase2">
+                                    <param id="0" name="Visibility">1</param>
                                 </action>
                             </actions>
                         </event-block>
